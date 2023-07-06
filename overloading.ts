@@ -13,6 +13,6 @@ const push : Push = (config) => {
   if (config === "string") {
     console.log(config)
   } else if(config !== "string") {
-    console.log(config.paht)
+    console.log(config.path)
   }
 }
